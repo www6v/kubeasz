@@ -12,14 +12,13 @@
 
 # work node(s)
 [kube-node]
+172.16.28.94 NEW_NODE=yes 
 172.16.28.93 NEW_NODE=yes 
 172.16.28.92 NEW_NODE=yes 
 10.100.140.229
 10.100.140.230
 10.100.140.231
 10.100.140.232
-10.100.140.233
-10.100.140.234
 
 # [optional] harbor server, a private docker registry
 # 'NEW_INSTALL': 'yes' to install a harbor server; 'no' to integrate with existed one
